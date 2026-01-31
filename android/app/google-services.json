@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733758371577",
+    "project_id": "careerinfo-73e51",
+    "storage_bucket": "careerinfo-73e51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733758371577:android:dfb53cd2f56af956f99428",
+        "android_client_info": {
+          "package_name": "com.example.careerinfo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1V_tBUVMa-Dj1pNh2L1DsKeQZrKqg350"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
