@@ -1,8 +1,8 @@
 # CareerInfo – Aplikasi Informasi Lowongan Kerja
 
-Link Apk release : https://drive.google.com/file/d/1nMm2UrVp9GAB3ZMJq8oGcxQu6VrMEVzC/view?usp=drivesdk    (Jika Register Role Admin masukan kode : ADMIN123)
-Link Github : https://github.com/LitaAlentina287/careerinfo
-Link Video : https://youtu.be/iAFURKEX-tY?si=SS9AAYP3z3xLQO1l
+- **Link Apk release** : https://drive.google.com/file/d/1nMm2UrVp9GAB3ZMJq8oGcxQu6VrMEVzC/view?usp=drivesdk    (Jika Register Role Admin masukan kode : ADMIN123)
+- **Link Github** : https://github.com/LitaAlentina287/careerinfo
+- **Link Video** : https://youtu.be/iAFURKEX-tY?si=SS9AAYP3z3xLQO1l
 
 ## 📌 Deskripsi Project
 
