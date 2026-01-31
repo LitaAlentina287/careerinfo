@@ -1,3 +1,244 @@
-# careerinfo
+# 📱 CareerInfo – Aplikasi Informasi Lowongan Kerja
 
-A new Flutter project.
+## 📌 Deskripsi Project
+
+CareerInfo adalah aplikasi mobile berbasis Android yang dikembangkan untuk memenuhi **UAS Pemrograman Mobile 2**. Aplikasi ini bertujuan untuk memudahkan pengguna dalam **mencari, melamar, dan mengelola informasi lowongan kerja**.
+
+Aplikasi memiliki **dua role pengguna**, yaitu **Admin** dan **Member**, dengan hak akses dan fitur yang berbeda.
+
+---
+
+## 👥 Anggota Kelompok 7
+
+* Febry
+* Derian
+* Lita Alentina
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Flutter (SDK ^3.10.0)**
+* **Dart**
+* Firebase Core
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Storage
+* Image Picker
+* Intl (format tanggal & waktu)
+
+---
+
+## 🔐 Fitur Authentication
+
+### 1️⃣ Halaman Login
+
+Halaman login digunakan oleh pengguna untuk masuk ke aplikasi menggunakan email dan password yang telah terdaftar. Proses login telah terintegrasi dengan **Firebase Authentication** untuk memastikan keamanan dan validasi data pengguna.
+
+**Contoh akun Admin:**
+
+* Email: [adminkelompok7@gmail.com](mailto:adminkelompok7@gmail.com)
+* Password: adminkelompok7!#
+
+```md
+![Halaman Login](screenshots/login.png)
+```
+
+---
+
+### 2️⃣ Halaman Register
+
+Halaman register memungkinkan pengguna membuat akun baru dengan mengisi email, password, dan memilih role pengguna.
+
+Role yang tersedia:
+
+* Member
+* Admin
+
+Jika memilih role **Admin**, pengguna wajib memasukkan **kode admin (ADMIN123)** sebagai pengaman.
+
+```md
+![Halaman Register](screenshots/register.png)
+```
+
+---
+
+## 🧾 Fitur Admin
+
+### 3️⃣ Halaman Input Data Informasi (Job)
+
+Halaman ini hanya dapat diakses oleh Admin. Admin dapat menambahkan data lowongan kerja baru dengan mengisi:
+
+* Logo perusahaan
+* Judul lowongan
+* Nama perusahaan
+* Lokasi
+* Deskripsi pekerjaan
+* Kualifikasi
+
+Data akan otomatis tersimpan ke **Firebase Firestore**.
+
+```md
+![Input Job](screenshots/input_job.png)
+```
+
+---
+
+### 4️⃣ Halaman List & Searching Informasi
+
+Halaman ini menampilkan seluruh data lowongan kerja dalam bentuk **ListView**. Admin dapat melakukan pencarian berdasarkan **posisi pekerjaan atau nama perusahaan**.
+
+```md
+![List Job](screenshots/list_job.png)
+```
+
+```md
+![Search Job](screenshots/search_job.png)
+```
+
+---
+
+### 5️⃣ Halaman Detail Informasi
+
+Menampilkan detail lengkap dari lowongan kerja yang dipilih. Admin dapat melakukan:
+
+* Accept lamaran
+* Reject lamaran
+* Hapus data
+
+```md
+![Detail Job Admin](screenshots/detail_job_admin.png)
+```
+
+---
+
+### 6️⃣ Halaman Profil Admin
+
+Admin dapat mengubah password dan logout dari aplikasi.
+
+```md
+![Profil Admin](screenshots/profil_admin.png)
+```
+
+---
+
+## 👤 Fitur Member
+
+### 7️⃣ Halaman Lowongan
+
+Member dapat melihat seluruh lowongan kerja yang tersedia dan mengakses detail lowongan.
+
+```md
+![Lowongan Member](screenshots/lowongan_member.png)
+```
+
+---
+
+### 8️⃣ Halaman Detail & Apply Lamaran
+
+Member dapat melakukan apply lamaran. Status lamaran akan tersimpan dan dikirim ke Admin.
+
+Status lamaran:
+
+* Pending
+* Diterima
+* Ditolak
+
+```md
+![Apply Lamaran](screenshots/apply_lamaran.png)
+```
+
+---
+
+### 9️⃣ Halaman Lamaran Member
+
+Menampilkan daftar lamaran yang telah diajukan beserta statusnya.
+
+```md
+![Lamaran Member](screenshots/lamaran_member.png)
+```
+
+---
+
+### 🔟 Halaman Profil Member
+
+Member dapat mengunggah resume dan logout dari aplikasi.
+
+```md
+![Profil Member](screenshots/profil_member.png)
+```
+
+---
+
+## ℹ️ Halaman About
+
+Halaman About berisi:
+
+* Informasi aplikasi
+* Tujuan pembuatan
+* Nama anggota dan NPM
+* Copyright
+
+```md
+![About](screenshots/about.png)
+```
+
+---
+
+## 🧭 Navigasi Aplikasi
+
+Aplikasi menggunakan **Bottom Navigation**, sehingga pengguna dapat berpindah halaman dengan mudah dan cepat.
+
+```md
+![Bottom Navigation](screenshots/bottom_navigation.png)
+```
+
+---
+
+## 🗄️ Integrasi Database
+
+Aplikasi terintegrasi dengan:
+
+* Firebase Authentication (login & register)
+* Firebase Firestore (data lowongan & lamaran)
+* Firebase Storage (logo perusahaan & resume)
+
+---
+
+## 🌐 Repository GitHub
+
+Seluruh source code project dapat diakses melalui repository GitHub berikut:
+
+```md
+https://github.com/username/CareerInfo
+```
+
+---
+
+## 🎥 Video Demo Aplikasi
+
+Video demo penggunaan aplikasi dapat dilihat pada link berikut:
+
+```md
+https://youtu.be/xxxxxxxxxxx
+```
+
+---
+
+## 📸 Catatan Screenshot
+
+Semua file screenshot disimpan di folder:
+
+```md
+/screenshots/
+```
+
+Pastikan nama file sesuai dengan yang dituliskan pada README agar gambar dapat tampil dengan benar.
+
+---
+
+## ✅ Penutup
+
+Dengan adanya aplikasi CareerInfo, diharapkan pengguna dapat dengan mudah memperoleh informasi lowongan kerja serta mengelola proses lamaran secara digital.
+
+Terima kasih 🙏
