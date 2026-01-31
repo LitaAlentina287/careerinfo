@@ -61,9 +61,9 @@ Role yang tersedia:
 
 Jika memilih role **Admin**, pengguna wajib memasukkan **kode admin (ADMIN123)** sebagai pengaman.
 
-```md
+
 ![Halaman Register](screenshots/register.png)
-```
+
 
 ---
 
@@ -82,9 +82,9 @@ Halaman ini hanya dapat diakses oleh Admin. Admin dapat menambahkan data lowonga
 
 Data akan otomatis tersimpan ke **Firebase Firestore**.
 
-```md
+
 ![Input Job](screenshots/input_job.png)
-```
+
 
 ---
 
@@ -97,9 +97,9 @@ Menampilkan detail lengkap dari lowongan kerja yang dipilih. Admin dapat melakuk
 * Reject lamaran
 * Hapus lamaran
 
-```md
+
 ![List Search Job](screenshots/list_search_job.png)
-```
+
 
 ---
 
@@ -112,9 +112,9 @@ Halaman About berisi:
 * Nama anggota dan NPM
 * Copyright
 
-```md
+
 ![About Admin](screenshots/about_admin.png)
-```
+
 
 ---
 
@@ -122,9 +122,9 @@ Halaman About berisi:
 
 Admin dapat mengubah password dan logout dari aplikasi.
 
-```md
+
 ![Profil Admin](screenshots/profil_admin.png)
-```
+
 
 ---
 
@@ -134,9 +134,9 @@ Admin dapat mengubah password dan logout dari aplikasi.
 
 Member dapat melihat seluruh lowongan kerja yang tersedia dan mengakses detail lowongan.
 
-```md
+
 ![Lowongan Member](screenshots/lowongan_member.png)
-```
+
 
 ---
 
@@ -150,9 +150,9 @@ Status lamaran:
 * Diterima
 * Ditolak
 
-```md
+
 ![Apply Lamaran](screenshots/apply_lamaran.png)
-```
+
 
 ---
 
@@ -160,9 +160,9 @@ Status lamaran:
 
 Menampilkan daftar lamaran yang telah diajukan beserta statusnya.
 
-```md
+
 ![Lamaran Member](screenshots/lamaran_member.png)
-```
+
 
 ---
 
@@ -170,9 +170,9 @@ Menampilkan daftar lamaran yang telah diajukan beserta statusnya.
 
 Member dapat mengunggah resume dan logout dari aplikasi.
 
-```md
+
 ![Profil Member](screenshots/profil_member.png)
-```
+
 
 ---
 
@@ -185,9 +185,9 @@ Halaman About berisi:
 * Nama anggota dan NPM
 * Copyright
 
-```md
+
 ![About Member](screenshots/about_member.png)
-```
+
 
 ---
 
