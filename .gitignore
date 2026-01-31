@@ -1,9 +1,13 @@
-# Miscellaneous
+##################################################
+# MISCELLANEOUS / TEMP FILES
+##################################################
 *.class
 *.log
 *.pyc
 *.swp
 .DS_Store
+Thumbs.db
+
 .atom/
 .build/
 .buildlog/
@@ -12,34 +16,59 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
+##################################################
+# IDE & EDITOR CONFIGURATION
+##################################################
+# IntelliJ / Android Studio
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Visual Studio Code
+# Uncomment if you want to ignore VS Code settings
+.vscode/
 
-# Flutter/Dart/Pub related
+##################################################
+# FLUTTER / DART / PUB
+##################################################
 **/doc/api/
 **/ios/Flutter/.last_build_id
+
 .dart_tool/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
-/coverage/
 
-# Symbolication related
+build/
+coverage/
+
+##################################################
+# ANDROID BUILD OUTPUT
+##################################################
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+##################################################
+# SYMBOLICATION & OBFUSCATION FILES
+##################################################
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+##################################################
+# FIREBASE CONFIGURATION (WAJIB DIABAIKAN)
+##################################################
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+##################################################
+# ENVIRONMENT VARIABLES / SECRETS
+##################################################
+.env
+.env.*
+
+##################################################
+# END OF FILE
+##################################################
