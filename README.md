@@ -44,9 +44,9 @@ Halaman login digunakan oleh pengguna untuk masuk ke aplikasi menggunakan email 
 * Email: [adminkelompok7@gmail.com](mailto:adminkelompok7@gmail.com)
 * Password: adminkelompok7!#
 
-```md
+
 ![Halaman Login](screenshots/login.png)
-```
+
 
 ---
 
