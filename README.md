@@ -200,13 +200,17 @@ Aplikasi menggunakan **Bottom Navigation**, sehingga pengguna dapat berpindah ha
 
 ---
 
+
 ## 🗄️ Integrasi Database
 
-Aplikasi terintegrasi dengan:
+Aplikasi CareerInfo terintegrasi dengan layanan Firebase untuk menyimpan dan mengelola data secara real-time:
 
-* Firebase Authentication (login & register)
-* Firebase Firestore (data lowongan & lamaran)
-* Firebase Storage (logo perusahaan & resume)
+| Layanan Firebase | Digunakan Untuk |
+|-----------------|----------------|
+| Firebase Authentication | Login & Register pengguna, manajemen role Admin/Member |
+| Firebase Firestore | Penyimpanan data lowongan kerja dan lamaran pengguna |
+| Firebase Storage | Menyimpan logo perusahaan dan file resume pengguna |
+
 
 ---
 
@@ -215,7 +219,7 @@ Aplikasi terintegrasi dengan:
 Seluruh source code project dapat diakses melalui repository GitHub berikut:
 
 ```md
-https://github.com/username/CareerInfo
+https://github.com/LitaAlentina287/careerinfo
 ```
 
 ---
@@ -225,11 +229,20 @@ https://github.com/username/CareerInfo
 Video demo penggunaan aplikasi dapat dilihat pada link berikut:
 
 ```md
-https://youtu.be/xxxxxxxxxxx
+https://youtu.be/iAFURKEX-tY?si=SS9AAYP3z3xLQO1l
 ```
 
 ---
 
+## file APK Release
+
+Video demo penggunaan aplikasi dapat dilihat pada link berikut:
+
+```md
+https://drive.google.com/drive/folders/1uKTY-H6NKhWfA8wqwU3GVIt9ROxTQokx?usp=drive_link 
+```
+
+---
 
 ## ✅ Penutup
 
