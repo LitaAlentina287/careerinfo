@@ -12,7 +12,7 @@ Aplikasi memiliki **dua role pengguna**, yaitu **Admin** dan **Member**, dengan 
 
 * Febry
 * Derian
-* Lita Alentina
+* Lita Alentina_2355
 
 ---
 
