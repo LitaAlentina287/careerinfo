@@ -1,4 +1,8 @@
-# 📱 CareerInfo – Aplikasi Informasi Lowongan Kerja
+# CareerInfo – Aplikasi Informasi Lowongan Kerja
+
+Link Apk release : https://drive.google.com/file/d/1nMm2UrVp9GAB3ZMJq8oGcxQu6VrMEVzC/view?usp=drivesdk    (Jika Register Role Admin masukan kode : ADMIN123)
+Link Github : https://github.com/LitaAlentina287/careerinfo
+Link Video : https://youtu.be/iAFURKEX-tY?si=SS9AAYP3z3xLQO1l
 
 ## 📌 Deskripsi Project
 
@@ -10,9 +14,9 @@ Aplikasi memiliki **dua role pengguna**, yaitu **Admin** dan **Member**, dengan 
 
 ## 👥 Anggota Kelompok 7
 
-* Febry
-* Derian
-* Lita Alentina_2355
+* Lita Alentina_23552011097
+* Febry Dian Nugraha_23552011111
+* Derian_23552011114
 
 ---
 
@@ -87,27 +91,29 @@ Data akan otomatis tersimpan ke **Firebase Firestore**.
 ### 4️⃣ Halaman List & Searching Informasi
 
 Halaman ini menampilkan seluruh data lowongan kerja dalam bentuk **ListView**. Admin dapat melakukan pencarian berdasarkan **posisi pekerjaan atau nama perusahaan**.
-
-```md
-![List Job](screenshots/list_job.png)
-```
-
-```md
-![Search Job](screenshots/search_job.png)
-```
-
----
-
-### 5️⃣ Halaman Detail Informasi
-
 Menampilkan detail lengkap dari lowongan kerja yang dipilih. Admin dapat melakukan:
 
 * Accept lamaran
 * Reject lamaran
-* Hapus data
+* Hapus lamaran
 
 ```md
-![Detail Job Admin](screenshots/detail_job_admin.png)
+![List Search Job](screenshots/list_search_job.png)
+```
+
+---
+
+## 5️⃣ Halaman About
+
+Halaman About berisi:
+
+* Informasi aplikasi
+* Tujuan pembuatan
+* Nama anggota dan NPM
+* Copyright
+
+```md
+![About Admin](screenshots/about_admin.png)
 ```
 
 ---
@@ -180,7 +186,7 @@ Halaman About berisi:
 * Copyright
 
 ```md
-![About](screenshots/about.png)
+![About Member](screenshots/about_member.png)
 ```
 
 ---
@@ -188,10 +194,6 @@ Halaman About berisi:
 ## 🧭 Navigasi Aplikasi
 
 Aplikasi menggunakan **Bottom Navigation**, sehingga pengguna dapat berpindah halaman dengan mudah dan cepat.
-
-```md
-![Bottom Navigation](screenshots/bottom_navigation.png)
-```
 
 ---
 
@@ -225,17 +227,6 @@ https://youtu.be/xxxxxxxxxxx
 
 ---
 
-## 📸 Catatan Screenshot
-
-Semua file screenshot disimpan di folder:
-
-```md
-/screenshots/
-```
-
-Pastikan nama file sesuai dengan yang dituliskan pada README agar gambar dapat tampil dengan benar.
-
----
 
 ## ✅ Penutup
 
